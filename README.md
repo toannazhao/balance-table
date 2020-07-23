@@ -7,9 +7,13 @@ Activities in the table include childcare, eating and drinking, housework, sleep
 The [ATUS](https://www.atusdata.org/atus/) is an ongoing time diary study funded by the U.S. Bureau of Labor Statistics (BLS) and fielded by the U.S. Census Bureau. 
 
 To run the sample analysis, use the command below
-	python BalanceAnalysis.py -s 2 -i 'atus_00010.csv' -o 'balance-female.tex'
+```
+python BalanceAnalysis.py -s 2 -i 'atus_00010.csv' -o 'balance-female.tex'
+```
 More generally,
-	python BalanceAnalysis.py -s <sex (1:male, 2:female)> -i <inputfile.csv> -o <output.tex>
+```
+python BalanceAnalysis.py -s <sex (1:male, 2:female)> -i <inputfile.csv> -o <output.tex>
+```
 
 **Contents:**
 
